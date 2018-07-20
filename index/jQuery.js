@@ -1,8 +1,26 @@
 $(document).ready(function(){
     $("#home").mouseenter(function(){
-        $("#home").append("HOME");
-    $("#home").mouseleave(function(){
-        $("#home").remove("HOME");
-        });
+        $("#homeTitle").show();
     });
+    $("#home").mouseleave(function(){
+        $("#homeTitle").hide();
+    });
+    $("#search").mouseenter(function(){
+        $("#searchTitle").show();
+    });
+    $("#search").mouseleave(function(){
+        $("#searchTitle").hide();
+    });
+    $("#code").mouseenter(function(){
+        $("#codeTitle").show();
+    });
+    $("#code").mouseleave(function(){
+        $("#codeTitle").hide();
+    });
+    $("#contact").mouseenter(function(){
+        $("#contactTitle").show();
+    });
+    $("#contact").mouseleave(function(){
+        $("#contactTitle").hide();
+    });     
 });

@@ -26,7 +26,7 @@ body, html {
     background-color: whitesmoke; /* Add a hover color */
     color:black;
     opacity: 1;
-    width: 100px;
+    width: 200px;
     z-index: 1;
 }
 
@@ -97,4 +97,24 @@ body, html {
     text-align: Center;
     background-color: white;
     color: white;
+}
+#homeTitle {
+    display: none;
+    font-size: 36px;
+    text-align: center;
+}
+#searchTitle {
+    display: none;
+    font-size: 36px;
+    text-align: center;
+}
+#codeTitle {
+    display: none;
+    font-size: 36px;
+    text-align: center;
+}
+#contactTitle {
+    display: none;
+    font-size: 36px;
+    text-align: center;
 }
