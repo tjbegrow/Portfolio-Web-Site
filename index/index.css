@@ -1,0 +1,100 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+}
+
+.icon-bar {
+    width: 80px; /* Set a specific width */
+    background-color: black; /* Dark-grey background */
+    position: fixed;
+    opacity: 0.8;
+    z-index: 1; 
+
+}
+
+.icon-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 16px; /* Add some padding */
+    transition: all 0.6s ease; /* Add transition for hover effects */
+    color: darkgray; /* White text color */
+    font-size: 36px; /* Increased font-size */
+    z-index: 1;
+}
+
+.icon-bar a:hover {
+    background-color: whitesmoke; /* Add a hover color */
+    color:black;
+    opacity: 1;
+    width: 100px;
+    z-index: 1;
+}
+
+.active {
+    background-color: whitesmoke; /* Add an active/current color */
+    color:black;
+    z-index: 1;
+}
+.backgrdimg1 {
+    /* 7-13-18 changed to png from jpg because issues with scoll jerk. Didn't work. */
+    background-image: url("desk.png");
+    /* Make imgage partially transparent and blurry */
+    opacity: 0.4;
+    filter: blur(5px);
+    /* Half of the height of image */
+    height: 31%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    
+}
+.backgrdimg2 {
+    /* 7-13-18 changed to png from jpg because issues with scoll jerk. Didn't work. */
+    background-image: url("desk.png");
+    /* Make imgage partially transparent and blurry */
+    opacity: 0.8;
+    filter: blur(0px);
+    /* Half of the height of image */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    scroll-behavior: smooth;
+}
+.backgrdimg3 {
+    /* 7-13-18 changed to png from jpg because issues with scoll jerk. Didn't work. */
+    background-image: url("code.png");
+
+    /* Make imgage partially transparent and blurry */
+    opacity: 0.8;
+    filter:blur(0px);
+
+    /* Half of the height of image */
+    height:100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    
+}
+.text1 {
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 0px;
+    
+}
+.border {
+    vertical-align: Middle;
+    text-align: Center;
+    background-color: white;
+    color: white;
+}
