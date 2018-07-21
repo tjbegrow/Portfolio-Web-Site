@@ -42,7 +42,7 @@ body, html {
     opacity: 0.4;
     filter: blur(5px);
     /* Half of the height of image */
-    height: 31%;
+    height: 25%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -86,12 +86,27 @@ body, html {
     z-index: -1;
     
 }
-.text1 {
-    background-color: whitesmoke;
+div.text1 h1 {
+    
+    font-family: 'Dancing Script';
     text-align: center;
-    margin: 0px;
+    font-size: 72px;
+}
+div.text1 h2 {
+    
+    font-family: 'Dancing Script';
+    text-align: center;
+}
+div.text1 {
+    font-family: 'Dancing Script';
+    text-align: center;
+    margin: 100px;
     
 }
+.text2 {
+
+}
+
 .border {
     vertical-align: Middle;
     text-align: Center;
