@@ -1,6 +1,7 @@
 body, html {
     height: 100%;
     margin: 0px;
+    scroll-behavior: smooth;
 }
 
 .icon-bar {
@@ -25,8 +26,10 @@ body, html {
 .icon-bar a:hover {
     background-color: whitesmoke; /* Add a hover color */
     color:black;
+    text-decoration: none;
     opacity: 1;
     width: 200px;
+    
     z-index: 1;
 }
 
@@ -58,14 +61,13 @@ body, html {
     opacity: 0.8;
     filter: blur(0px);
     /* Half of the height of image */
-    height: 100%;
+    height: 75%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
-    scroll-behavior: smooth;
 }
 .backgrdimg3 {
     /* 7-13-18 changed to png from jpg because issues with scoll jerk. Didn't work. */
@@ -76,7 +78,7 @@ body, html {
     filter:blur(0px);
 
     /* Half of the height of image */
-    height:100%; 
+    height:50%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -88,25 +90,26 @@ body, html {
 }
 div.text1 h1 {
     
-    font-family: 'Dancing Script';
+    font-family: 'Space Mono';
     text-align: center;
     font-size: 72px;
 }
 div.text1 h2 {
     
-    font-family: 'Dancing Script';
+    font-family: 'Space Mono';
     text-align: center;
 }
 div.text1 {
-    font-family: 'Dancing Script';
-    text-align: center;
     margin: 100px;
     
 }
 .text2 {
-
+    padding-left: 85px;
+    padding-right: 85px;
+    font-family: 'Space Mono';
+    font-size: 24px;
+    text-align:center;
 }
-
 .border {
     vertical-align: Middle;
     text-align: Center;
@@ -115,21 +118,27 @@ div.text1 {
 }
 #homeTitle {
     display: none;
+    font-family: 'Times New Roman';
     font-size: 36px;
     text-align: center;
 }
 #searchTitle {
     display: none;
+    font-family: 'Times New Roman';
     font-size: 36px;
     text-align: center;
 }
 #codeTitle {
     display: none;
-    font-size: 36px;
+    font-family: 'Press Start 2P';
+    font-size: 24px;
+    /*background-color: black; */   
+    /*color: blueviolet; */
     text-align: center;
 }
 #contactTitle {
     display: none;
+    font-family: 'Times New Roman';
     font-size: 36px;
     text-align: center;
 }
