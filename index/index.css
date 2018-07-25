@@ -32,13 +32,36 @@ body, html {
     color:black;
     z-index: 1;
 }
-
+@media screen and (max-width: 800px) {
+    .icon-bar {
+        width: 100%;
+        overflow: auto; 
+    }
+    .icon-bar a {
+        float: left;
+        width: 25%;
+        padding: 10px 0px;
+    }
+    #homeTitle {
+        font-size: 0px
+    }
+    #searchTitle {
+        font-size: 0px
+    }
+    #codeTitle {
+        font-size: 0px
+    }
+    #contactTitle {
+        font-size: 0px
+    }
+}
 @media screen and (min-width: 800px) {
     .icon-bar {
         width: 80px;
     }
     .icon-bar a {
         display: block;
+        overflow: auto;
         padding: 16px
     }
     .icon-bar a:hover {
@@ -55,30 +78,6 @@ body, html {
     }
     #contactTitle {
         font-size: 36px
-    }
-}
-@media screen and (max-width: 800px) {
-    .icon-bar {
-        width: 100%;
-        overflow: auto; 
-    }
-    .icon-bar a {
-        float: left;
-        width: 25%;
-        padding: 10px 0px;
-        
-    }
-    #homeTitle {
-        font-size: 0px
-    }
-    #searchTitle {
-        font-size: 0px
-    }
-    #codeTitle {
-        font-size: 0px
-    }
-    #contactTitle {
-        font-size: 0px
     }
 }
 .backgrdimg1 {

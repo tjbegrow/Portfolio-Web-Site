@@ -1,0 +1,190 @@
+@media only screen and (max-width: 600px) {
+    .icon-bar {
+        width: 100%;
+        background-color: black; /* Dark-grey background */
+        position: fixed;
+        opacity: 0.8;
+        z-index: 1; 
+    } 
+    .icon-bar a {
+        float: left;
+        width: 25%;
+        padding: 10px 0px; 
+        text-align: center;
+        transition: all 0.6s ease;
+        color: darkgray; /* White text color */
+        font-size: 36px; /* Increased font-size */
+        z-index: 1;  
+    }
+    .icon-bar a:hover {
+        background-color: whitesmoke; /* Add a hover color */
+        color:black;
+        text-decoration: none;
+        opacity: 1;
+        z-index: 1;
+    }
+    #homeTitle {
+        font-size: 0px
+    }
+    #searchTitle {
+        font-size: 0px
+    }
+    #codeTitle {
+        font-size: 0px
+    }
+    #contactTitle {
+        font-size: 0px
+    }
+}
+@media only screen and (min-width: 600px) {
+    .icon-bar {
+        width: 100%;
+        background-color: black; /* Dark-grey background */
+        position: fixed;
+        opacity: 0.8;
+        z-index: 1; 
+    } 
+    .icon-bar a {
+        float: left;
+        width: 25%;
+        padding: 10px 0px; 
+        text-align: center;
+        transition: all 0.6s ease;
+        color: darkgray; /* White text color */
+        font-size: 36px; /* Increased font-size */
+        z-index: 1;  
+    }
+    .icon-bar a:hover {
+        background-color: whitesmoke; /* Add a hover color */
+        color:black;
+        text-decoration: none;
+        opacity: 1;
+        z-index: 1;
+    }
+    #homeTitle {
+        font-size: 0px
+    }
+    #searchTitle {
+        font-size: 0px
+    }
+    #codeTitle {
+        font-size: 0px
+    }
+    #contactTitle {
+        font-size: 0px
+    }
+}
+@media only screen and (min-width: 768px) {
+    .icon-bar {
+        width: 100%;
+        background-color: black; /* Dark-grey background */
+        position: fixed;
+        opacity: 0.8;
+        z-index: 1; 
+    } 
+    .icon-bar a {
+        float: left;
+        width: 25%;
+        padding: 10px 0px; 
+        text-align: center;
+        transition: all 0.6s ease;
+        color: darkgray; /* White text color */
+        font-size: 36px; /* Increased font-size */
+        z-index: 1;  
+    }
+    .icon-bar a:hover {
+        background-color: whitesmoke; /* Add a hover color */
+        color:black;
+        text-decoration: none;
+        opacity: 1;
+        z-index: 1;
+    }
+    #homeTitle {
+        font-size: 0px
+    }
+    #searchTitle {
+        font-size: 0px
+    }
+    #codeTitle {
+        font-size: 0px
+    }
+    #contactTitle {
+        font-size: 0px
+    }
+}
+@media only screen and (min-width: 992px) {
+    .icon-bar {
+        width: 80px;
+        background-color: black; /* Dark-grey background */
+        position: fixed;
+        opacity: 0.8;
+        z-index: 1; 
+    }
+    .icon-bar a {
+        display: block;
+        padding: 16px;
+        text-align: center;
+        transition: all 0.6s ease; /* Add transition for hover effects */
+        color: darkgray; /* White text color */
+        font-size: 36px; /* Increased font-size */
+        z-index: 1;
+    }
+    .icon-bar a:hover {
+        width: 200px;
+        background-color: whitesmoke; /* Add a hover color */
+        color:black;
+        text-decoration: none;
+        opacity: 1;
+        z-index: 1; 
+    }
+    #homeTitle {
+        font-size: 36px;
+    }
+    #searchTitle {
+        font-size: 36px;
+    }
+    #codeTitle {
+        font-size: 24px;
+    }
+    #contactTitle {
+        font-size: 36px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .icon-bar {
+        width: 80px;
+        background-color: black; /* Dark-grey background */
+        position: fixed;
+        opacity: 0.8;
+        z-index: 1; 
+    }
+    .icon-bar a {
+        display: block;
+        padding: 16px;
+        text-align: center;
+        transition: all 0.6s ease; /* Add transition for hover effects */
+        color: darkgray; /* White text color */
+        font-size: 36px; /* Increased font-size */
+        z-index: 1;
+    }
+    .icon-bar a:hover {
+        width: 200px;
+        background-color: whitesmoke; /* Add a hover color */
+        color:black;
+        text-decoration: none;
+        opacity: 1;
+        z-index: 1; 
+    }
+    #homeTitle {
+        font-size: 36px;
+    }
+    #searchTitle {
+        font-size: 36px;
+    }
+    #codeTitle {
+        font-size: 24px;
+    }
+    #contactTitle {
+        font-size: 36px;
+    }
+}
