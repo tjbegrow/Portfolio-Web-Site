@@ -67,7 +67,7 @@ body, html {
         padding: 0px;
     }
 }
-
+/*make style/font changes based on smaller screens also change the amount that the top image shows when the menu flips. check w3 for average screen sizes*/
 @media only screen and (min-width: 992px) {
     .icon-bar {
         width: 80px;
