@@ -1,7 +1,6 @@
 body, html {
     height: 100%;
     margin: 0px;
-    scroll-behavior: smooth;
 }
 .icon-bar {
     /* width: 80px; */ /* Set a specific width */
@@ -32,7 +31,7 @@ body, html {
     color:black;
     z-index: 1;
 }
-@media screen and (max-width: 800px) {
+@media only screen and (max-width: 992px) {
     .icon-bar {
         width: 100%;
         overflow: auto; 
@@ -54,8 +53,22 @@ body, html {
     #contactTitle {
         font-size: 0px
     }
+    div.text1 h1 {
+        font-size: 36px;
+    }
+    div.text1 h2 {
+        font-size: 100%;
+    }
+    div.text1 {
+        margin: 50px; 
+    }
+    .text2 {
+        font-size: 100%;
+        padding: 0px;
+    }
 }
-@media screen and (min-width: 800px) {
+
+@media only screen and (min-width: 992px) {
     .icon-bar {
         width: 80px;
     }
@@ -78,6 +91,43 @@ body, html {
     }
     #contactTitle {
         font-size: 36px
+    }
+    div.text1 h1 {
+        font-size: 72px;
+    }
+    div.text1 h2 {
+        font-size: 24px;
+    }
+    .text2 {
+        font-size: 24px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .icon-bar {
+        width: 80px;
+    }
+    .icon-bar a {
+        display: block;
+        overflow: auto;
+        padding: 16px
+    }
+    .icon-bar a:hover {
+        width: 200px; 
+    }
+    #homeTitle {
+        font-size: 36px
+    }
+    #searchTitle {
+        font-size: 36px
+    }
+    #codeTitle {
+        font-size: 24px
+    }
+    #contactTitle {
+        font-size: 36px
+    }
+    .text2 {
+        font-size: 24px;
     }
 }
 .backgrdimg1 {
@@ -128,20 +178,20 @@ body, html {
 div.text1 h1 {
     font-family: 'Space Mono';
     text-align: center;
-    font-size: 72px;
+    /* font-size: 72px;*/
 }
 div.text1 h2 {
     font-family: 'Space Mono';
     text-align: center;
 }
 div.text1 {
-    margin: 100px; 
+    /*margin: 100px;*/ 
 }
 .text2 {
-    padding-left: 85px;
-    padding-right: 85px;
+    /*padding-left: 85px; */
+    /*padding-right: 85px;*/
     font-family: 'Space Mono';
-    font-size: 24px;
+    /* font-size: 24px; */
     text-align:center;
 }
 .border {
