@@ -1,0 +1,19 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+}
+.backgrdimg3 {
+    /* 7-13-18 changed to png from jpg because issues with scoll jerk. Didn't work. */
+    background-image: url("code.png");
+    /* Make imgage partially transparent and blurry */
+    opacity: 0.8;
+    filter:blur(0px);
+    /* Half of the height of image */
+    height:50%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;   
+}

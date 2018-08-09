@@ -2,57 +2,7 @@ body, html {
     height: 100%;
     margin: 0px;
 }
-.icon-bar {
-    /* width: 80px; */ /* Set a specific width */
-    background-color: black; /* Dark-grey background */
-    position: fixed;
-    opacity: 0.8;
-    z-index: 1; 
-}
-.icon-bar a {
-    /*display: block;*/ /* Make the links appear below each other instead of side-by-side */
-    text-align: center; /* Center-align text */
-    /*padding: 16px; /* Add some padding */
-    transition: all 0.6s ease; /* Add transition for hover effects */
-    color: darkgray; /* White text color */
-    font-size: 36px; /* Increased font-size */
-    z-index: 1;
-}
-.icon-bar a:hover {
-    background-color: whitesmoke; /* Add a hover color */
-    color:black;
-    text-decoration: none;
-    opacity: 1;
-    /*width: 200px;*/
-    z-index: 1;
-}
-.active {
-    background-color: whitesmoke; /* Add an active/current color */
-    color:black;
-    z-index: 1;
-}
 @media only screen and (max-width: 992px) {
-    .icon-bar {
-        width: 100%;
-        overflow: auto; 
-    }
-    .icon-bar a {
-        float: left;
-        width: 25%;
-        padding: 10px 0px;
-    }
-    #homeTitle {
-        font-size: 0px
-    }
-    #searchTitle {
-        font-size: 0px
-    }
-    #codeTitle {
-        font-size: 0px
-    }
-    #contactTitle {
-        font-size: 0px
-    }
     div.text1 h1 {
         font-size: 36px;
     }
@@ -69,29 +19,6 @@ body, html {
 }
 /*make style/font changes based on smaller screens also change the amount that the top image shows when the menu flips. check w3 for average screen sizes*/
 @media only screen and (min-width: 992px) {
-    .icon-bar {
-        width: 80px;
-    }
-    .icon-bar a {
-        display: block;
-        overflow: auto;
-        padding: 16px
-    }
-    .icon-bar a:hover {
-        width: 200px; 
-    }
-    #homeTitle {
-        font-size: 36px
-    }
-    #searchTitle {
-        font-size: 36px
-    }
-    #codeTitle {
-        font-size: 24px
-    }
-    #contactTitle {
-        font-size: 36px
-    }
     div.text1 h1 {
         font-size: 72px;
     }
@@ -103,29 +30,6 @@ body, html {
     }
 }
 @media only screen and (min-width: 1200px) {
-    .icon-bar {
-        width: 80px;
-    }
-    .icon-bar a {
-        display: block;
-        overflow: auto;
-        padding: 16px
-    }
-    .icon-bar a:hover {
-        width: 200px; 
-    }
-    #homeTitle {
-        font-size: 36px
-    }
-    #searchTitle {
-        font-size: 36px
-    }
-    #codeTitle {
-        font-size: 24px
-    }
-    #contactTitle {
-        font-size: 36px
-    }
     .text2 {
         font-size: 24px;
     }
@@ -199,30 +103,3 @@ div.text1 {
     text-align: Center;
     background-color: white;
     color: white;
-}
-#homeTitle {
-    display: none;
-    font-family: 'Times New Roman';
-    /* font-size: 36px; */
-    text-align: center;
-}
-#searchTitle {
-    display: none;
-    font-family: 'Times New Roman';
-    /* font-size: 36px; */
-    text-align: center;
-}
-#codeTitle {
-    display: none;
-    font-family: 'Press Start 2P';
-    /*font-size: 24px; */
-    /*background-color: black; */   
-    /*color: blueviolet; */
-    text-align: center;
-}
-#contactTitle {
-    display: none;
-    font-family: 'Times New Roman';
-    /*font-size: 36px; */
-    text-align: center;
-}
